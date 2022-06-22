@@ -97,4 +97,12 @@
 
         git add archivo1 archivo2
 
-    Realizar un commit 
+    Se puede *realizar un commit 2 dos formas:*
+
+        git commit -m "Nombre del Commit que describa el cambio"
+        
+        git commit + Enter 
+        
+        nos llevará al editor de texto, donde colocaremos en la parte superior la descripción del commit, debemos guardar y cerrar, eso realizará el commit
+
+    
