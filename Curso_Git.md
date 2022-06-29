@@ -105,4 +105,34 @@
         
         nos llevará al editor de texto, donde colocaremos en la parte superior la descripción del commit, debemos guardar y cerrar, eso realizará el commit
 
+    Visualizar los commits realizados:
+
+        git log --oneline
+
     
+    Saber en qué rama nos encontramos:
+
+        git branch
+
+    *Presionamos q para salir*
+
+    ---
+
+    Crear una nueva rama:
+
+        git checkout -b nombre-rama
+
+    *algunas empresas lo colocan como features/nombre-de-la-funcionalidad,
+    otras colocan directamente el número de ticket a atender o solucionar*
+
+    ---
+    
+    Para traer los cambios desde una rama secundaria hacia la rama principal o rama "main" debemos dirigirnos a la rama principal y hacer un merge a la rama desde donde queremos traer los cambios
+
+        git checkout main
+
+        git merge nombre-rama-con-cambios
+
+    
+
+
