@@ -133,6 +133,16 @@
 
         git merge nombre-rama-con-cambios
 
+    ---
+    Para subir nuestro repositorio a GitHub
+
+    *Creamos nuestro repositorio en la web de GitHb*  
+    *Copiamos el link git remote para indicar el origen y destino de los datos*
     
+        git remote add origin git@github.com:nombre-del-repositorio.git
 
+    *Luego hacemos un push que es el comando para subir los datos*  
+    *Al ser el primer envío de datos la rama main no esxite en nuestro repositorio remoto, por lo que debemos crearla*
 
+        git push -u origin main
+    
