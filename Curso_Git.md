@@ -104,12 +104,17 @@
         git commit + Enter 
         
         nos llevará al editor de texto, donde colocaremos en la parte superior la descripción del commit, debemos guardar y cerrar, eso realizará el commit
+    ---
+    Para ver el contenido de nuestro archivo:
+
+        git cat nombre-del-archivo
+    ---
 
     Visualizar los commits realizados:
 
         git log --oneline
 
-    
+    ---
     Saber en qué rama nos encontramos:
 
         git branch
@@ -126,14 +131,19 @@
     otras colocan directamente el número de ticket a atender o solucionar*
 
     ---
+
+    Para cambiar de rama:
+
+        git checkout nombre-de-la-rama
+    ---
     
     Para traer los cambios desde una rama secundaria hacia la rama principal o rama "main" debemos dirigirnos a la rama principal y hacer un merge a la rama desde donde queremos traer los cambios
 
         git checkout main
 
         git merge nombre-rama-con-cambios
-
     ---
+    
     Para subir nuestro repositorio a GitHub
 
     *Creamos nuestro repositorio en la web de GitHb*  
