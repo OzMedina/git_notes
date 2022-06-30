@@ -67,7 +67,7 @@
 
     Crear una carpeta dentro de la posición actual:
 
-        mkdir nombre del directorio
+        mkdir nombre-del-directorio
 
     Inicializar o crear un proyecto "git" en directorio existente:
 
@@ -132,6 +132,12 @@
 
     ---
 
+    Borrar una rama:
+
+        git checkout -d nombre-rama
+
+    ---
+
     Para cambiar de rama:
 
         git checkout nombre-de-la-rama
@@ -155,4 +161,26 @@
     *Al ser el primer envío de datos la rama main no esxite en nuestro repositorio remoto, por lo que debemos crearla*
 
         git push -u origin main
+
+---
+7. **Seguridad**
+
+    Listar las llaves .SSH de seguridad existentes 
+
+        ls -al ~/.ssh
+
+    Generar una nueva llave SSH
+
+        ssh-keygen -t ed25519 -C "your_email@example.com"
+
+    Correr la llave generada para luego agregarla
+
+        eval "$(ssh-agent -s)"
+    
+    Agregar la llave generada
+
+        ssh-add ~/.ssh/id_rsa
+
+
+
     
