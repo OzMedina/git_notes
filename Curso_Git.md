@@ -161,7 +161,17 @@
     *Al ser el primer envío de datos la rama main no esxite en nuestro repositorio remoto, por lo que debemos crearla*
 
         git push -u origin main
-
+        
+    Para verificar si nuestro repositorio se guardó:
+    
+        git remote
+        git remote -v
+        
+    Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes.  
+    Podemos usar git fetch y git merge o solo:  
+    
+        git pull con el flag --allow-unrelated-histories:
+    
 ---
 7. **Seguridad**
 
