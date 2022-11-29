@@ -2,8 +2,6 @@
 
 **Origen:** [Youtube](https://git-scm.com/downloads)
 
-**Instructor:** *Nicolás Schürmann* ~ HolaMundo // otros adicionales
-
 1. **Descarga:** [Aquí](https://git-scm.com/downloads)
 
 2. Instalar considerando **Git con Bash**
