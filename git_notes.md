@@ -71,7 +71,7 @@
 
         git init
 
-    El directorio crado anteriormente no será visible con el comando "ls", por lo que si queremos ver los directorios ocultos se debe usar el comando:
+    El directorio creado anteriormente no será visible con el comando "ls", por lo que si queremos ver los directorios ocultos se debe usar el comando:
 
         ls -a
 
