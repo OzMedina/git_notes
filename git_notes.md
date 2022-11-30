@@ -18,7 +18,7 @@
 
     Poner correo por defecto para todos los proyectos:
 
-        git config --global user.email oscar.m32@gmail.com
+        git config --global user.email tucorreo@gmail.com
 
     Poner Visual Studio Code como editor por defecto (se debe instalar VS Code antes y reiniciar) esto hará que se espere cerrar el archivo de configuración antes de seguir usando el bash:
         
@@ -153,7 +153,7 @@
     *Creamos nuestro repositorio en la web de GitHb*  
     *Copiamos el link git remote para indicar el origen y destino de los datos*
     
-        git remote add origin git@github.com:nombre-del-repositorio.git
+        git remote add origin https://github.com/cuenta/repositorio.git
 
     *Luego hacemos un push que es el comando para subir los datos*  
     *Al ser el primer envío de datos la rama main no esxite en nuestro repositorio remoto, por lo que debemos crearla*
