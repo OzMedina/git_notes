@@ -188,7 +188,12 @@
     Agregar la llave generada
 
         ssh-add ~/.ssh/id_rsa
-
+    
+    Comprobar si tienes permisos
+    
+        ssh -T GITHUB-USERNAME@github.com
+        
+    
 
 
     
